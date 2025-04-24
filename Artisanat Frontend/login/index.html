@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connexion Marocaine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1 class="title">Bienvenue</h1>
+      <p class="subtitle">Connectez-vous à votre espace</p>
+      <form id="loginForm">
+        <input
+          type="text"
+          id="username"
+          placeholder="Nom d'utilisateur"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          placeholder="Mot de passe"
+          required
+        />
+        <div class="button-container">
+          <button
+            onclick="window.location.href='../categorie/index.html'"
+            class="login-button"
+          >
+            Se connecter
+          </button>
+          <button
+            onclick="window.location.href='../signup/index.html'"
+            class="signup-button"
+          >
+            S'inscrire
+          </button>
+        </div>
+      </form>
+      <p class="footer">Inspiré par l'art marocain</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

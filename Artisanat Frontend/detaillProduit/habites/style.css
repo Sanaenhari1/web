@@ -1,0 +1,84 @@
+/* Styles globaux */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.user-icon img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* Section produit */
+.product-details {
+  text-align: center;
+  padding: 2rem;
+}
+
+.product-details h1 {
+  font-size: 2.5rem;
+  color: green;
+}
+
+.product-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.product-info img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-description {
+  max-width: 400px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.buy-btn {
+  padding: 10px 20px;
+  background-color: #00bf63;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+  background-color: #007a42;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+}
